@@ -19,7 +19,26 @@ JavaScript is a scripting language that runs in the browser and allows you to ad
 3. Go to the "Console" tab.
 4. Type your JavaScript code and hit Enter.
 
-Alternatively, include JavaScript in an HTML file.
+Alternatively, include JavaScript in an HTML file:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Tutorial</title>
+</head>
+<body>
+    <h1>Welcome to JavaScript!</h1>
+    <p id="demo"></p>
+
+    <script>
+        document.getElementById('demo').textContent = "Hello, JavaScript!";
+    </script>
+</body>
+</html>
+```
 
 ---
 
